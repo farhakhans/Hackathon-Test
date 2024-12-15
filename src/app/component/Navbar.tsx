@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -47,42 +48,42 @@ const Header = () => {
       <nav className="bg-[#fff] text-#726E8D py-10">
         <ul className="flex justify-center gap-6 text-lg">
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Home"} className="hover:text-gray-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Avion"} className="hover:text-gray-300">
               Avion
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Plantpots"} className="hover:text-gray-300">
               Plant Pots
-            </a>
-          </li>
+              </a>
+       </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Ceramcis"} className="hover:text-gray-300">
               Ceramics
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Tables"} className="hover:text-gray-300">
               Tables
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Chairs"} className="hover:text-gray-300">
               Chairs
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Crockery"} className="hover:text-gray-300">
               Crockery
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href={"#Cutlery"} className="hover:text-gray-300">
               Cutlery
             </a>
           </li>

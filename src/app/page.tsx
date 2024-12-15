@@ -6,13 +6,17 @@ import GetinTouch from "./component/GetInTouch";
 
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
+import PlantPots from "./component/PlantPots";
+
+
 import PopularProducts from "./component/popularProduct";
 import ProductList from "./component/productList";
 import Signup from "./component/Signup";
+
 export default function Home() {
   return (
     
-    <><Navbar /><Hero /><BrandFeatures/><ProductList/><PopularProducts/><Signup/><GetinTouch/><Footer/></>
+    <><Navbar /><Hero /><BrandFeatures/><ProductList/><PopularProducts/><Signup/><GetinTouch/><Footer/><PlantPots/></>
     
   )
 };
